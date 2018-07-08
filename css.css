@@ -9,16 +9,16 @@ html {
     font-family: 'Plaster', cursive;
 }
 
-nav ul a li {
-   padding: 0;
-   margin: 2% -4px 0 -4px;
-   display: inline-block;
-   box-sizing: border-box;
-   list-style-type: none;
+nav ul{
+    margin: 0 auto;
+    padding: 0; 
+}
+nav ul li {
+   display:flex;
+   align-items: center;
+   justify-content: center;
    text-align: center;
    background-color: #a9c29c;
-   border: 3px solid #000;
-   width: 50%;
    font-weight: bold;
    font-size: 2rem;
 }
@@ -35,6 +35,7 @@ li:hover {
 }
 
 h1 {
+    margin:1rem auto;
     text-align: center;
     font-size: 4rem;
     letter-spacing: .3rem;
@@ -91,6 +92,7 @@ h1 {
     .grid-container {
         grid-template-columns: 50% 50%;
     }
+    *{font-size:.5rem;}
 }
 
 @media(max-width:480px) {
